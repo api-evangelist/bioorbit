@@ -1,7 +1,30 @@
 aid: bioorbit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bioorbit.png
 name: BioOrbit
-description: BioOrbit is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  BioOrbit is a London-based in-space manufacturing company, founded in 2023,
+  that uses microgravity to crystallise protein-based biologic drugs at scale.
+  Its autonomous BOX hardware — a compact, microwave-sized manufacturing unit
+  designed to operate in low-Earth orbit — grows highly ordered crystalline
+  forms of therapeutic proteins that reduce viscosity, enabling treatments
+  normally given intravenously (including cancer therapies) to be reformulated
+  as subcutaneous, self-injectable products. Co-founded by Dr Katie King and
+  Dr Leonor Teles, BioOrbit raised the world's largest seed round for in-space
+  manufacturing (~£9.8M / $13.2M) co-led by LocalGlobe and Breega with Seedcamp,
+  Auxxo, Type One, 7percent and angels, and is supported by the UK Space Agency,
+  ESA BIC and ESA BSGN. It was added to the API Evangelist network as a
+  Seedcamp portfolio company; it publishes no public API or developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/bioorbit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Space
+- Biotechnology
+- Pharmaceuticals
+- Manufacturing
+- Microgravity
+- Deep Tech
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bioorbit-domain-security.yml
 - type: Website
-  url: http://bioorbit.space
+  url: https://www.bioorbit.space/
+- type: LinkedIn
+  url: https://uk.linkedin.com/company/bioorbit
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/bioorbit
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
