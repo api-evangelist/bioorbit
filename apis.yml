@@ -37,6 +37,9 @@ description: >-
   ESA BIC and ESA BSGN. It was added to the API Evangelist network as a
   Seedcamp portfolio company; it publishes no public API or developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/bioorbit/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It was added to the API Evangelist network as a Seedcamp portfolio company; it publishes no public API or developer surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
